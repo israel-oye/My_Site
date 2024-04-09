@@ -120,11 +120,17 @@ text-decoration: none;*/
     font-family: 'Fredoka', sans-serif;
 }
 
+.skills{
+    background: linear-gradient(to bottom left, #F5F5F5, #8FC3FF);
+    border-color: #F5F5F5;
+    padding: 2%;
+}
+
 .profile-img {
     width: 10%;
 }
 
-.skill-img {
+.chat-img, .skill-img, .project-img {
     /*border-radius: 15px;*/
     width: 4%;
     height: 6%;
@@ -161,6 +167,9 @@ text-decoration: none;*/
 }
 
 .contact-me {
-    width: 40%;
-    margin: auto;
+    background: linear-gradient(to top, #F5F5F5, #8FC3FF);
+    padding: 2%;
+    div {
+       width: 40%; 
+    }
 }
